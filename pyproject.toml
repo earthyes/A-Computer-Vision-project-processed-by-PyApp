@@ -1,0 +1,12 @@
+[tool.poetry]
+name = "cv4"
+version = "7"
+description = "A PyQt5 and OpenCV-based eye detection application"
+authors = ["John Smith <john@example.com>"]
+
+[tool.pyapp]
+PYAPP_EXEC_MODULE = "cv4.main"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
